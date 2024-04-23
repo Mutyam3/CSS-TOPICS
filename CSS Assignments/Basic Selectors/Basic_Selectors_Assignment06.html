@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+            Mutyam==>Assignment06
+        </title>
+
+
+        <style>
+
+                body{
+                margin:0%;
+                }
+           
+               .navbar{
+                  background-color: rgb(63, 182, 30);
+                  text-align:center;
+                  color:rgb(9, 9, 9);
+                  font-size: larger;
+                  position: relative;
+               }
+               
+               .navbar .list{
+                display: inline-block;
+                padding:25px;
+                position: relative;
+                margin-left:-4px;
+              
+               }
+
+               .navbar .list:hover{
+                background-color: black;
+                color: azure;
+               }
+
+               .down-list{
+                display: none;
+                position: absolute; 
+        /* absolute => takes element out from the normal flow and creates a layer palced on that layer 
+            always related to parent, positioned ancestor and body
+            if u donot have parent  its check if there is any positioned ancestor (relative..) even if it is not avaliable 
+            then its to body  */
+                right:2px;
+                top: 70px;
+                background-color: rgb(19, 18, 18);
+                padding:0px;
+                width: 158px;
+
+               }
+
+               .down-list li{
+                list-style-type:none;
+                padding: 17px;
+                color:azure;
+               }
+
+               .down-list li:hover{
+                background-color: rgb(145, 145, 49);
+
+               }
+                .navbar .list:hover .down-list{
+                    display: block;
+                }
+
+                .html-list {
+                    width: 100px;
+                }
+
+
+
+
+        </style>
+
+
+        
+            
+          </head>
+          <body>
+              
+
+            <ul class="navbar">
+                <li class="list">HTML
+                    <ul class="down-list html-list">
+                        <li>Tags</li>
+                        <li>Lists</li>
+                        <li>Tables</li>
+                        <li>Images</li>
+                        <li>Forms</li>
+                    </ul>
+                </li>
+                <li class="list">CSS</li>
+                <li class="list">JAVASCRIPT
+                    <ul class="down-list">
+                        <li>Basics</li>
+                        <li>Loops</li>
+                        <li>Functions</li>
+                        <li>Dom and Events</li>
+                    </ul>
+                </li>
+                <li class="list">REACT JS</li>
+                <li class="list">ANGULAR JS</li>
+            </ul>
+
+
+
+
+
+
+
+
+
+            
+          </body>
+</html>
