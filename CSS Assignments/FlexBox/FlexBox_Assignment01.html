@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <title>Mutyam==>Assignment01</title>
+
+        <style>
+
+            *{
+                margin:0;
+                padding:0;
+            }
+
+            
+            
+            .main{
+                border:2px solid black;
+            }
+            
+           .bar{
+            margin:0 60px;
+           }
+
+
+
+            .menu_bar{
+                   display: flex;
+                   justify-content: space-between;
+                   border:2px solid blue;
+                   background-color: rgb(22, 22, 245);
+                   color:rgb(241, 236, 236);
+            }
+
+            .matter{
+                display: flex;
+            }
+            
+            .matter li{
+                list-style: none;
+                padding:10px;
+            }
+
+            .content{
+                height:40vh;
+                display:flex;
+                justify-content: end;
+                align-items: center;
+                padding:20px;
+
+            }
+           
+            .matborder{
+                display:flex;
+                flex-wrap: wrap;
+                
+            }
+
+            .matborder li{
+                list-style: none;
+                border: 2px solid black;
+                margin-left:10px;
+                width:250px;
+                height:80px;
+                /* padding:40px 60px; */
+                font-size: x-large;
+            }
+
+
+            .main02{
+                   display: flex;
+                   /* border: 2px solid red; */
+                   justify-content: space-around;
+                   padding:100px;
+            }
+
+            .card{
+                border-radius: 15px;
+                padding: 40px;
+                position: relative;
+                background-color: bisque;
+                text-align: center;
+            }
+            .card01 ,.card02, .card03{
+                border-radius: 50%;
+                border:5px solid white;
+                padding: 15px;
+                background-color: rgb(255, 81, 0);
+                position:absolute;
+                bottom:80%;
+                left:30%;
+                /* transform: translate(-50% -50%); */
+               
+            }
+
+            
+
+
+        </style>
+        <script src="https://kit.fontawesome.com/72b3e5b518.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <section class="main bar">
+            <div class="menu_bar">
+                 
+                    <ul class="matter">
+                        <li><a><i class="fa-solid fa-envelope"></i>info edupoly@gmail.com</a></li>
+                        <li><a><i class="fa-solid fa-mobile"></i>-123432443</a></li>
+                    </ul>
+
+                    <ul class="matter">
+                        <li><a href=""><i class="fa-brands fa-twitter" style="color:whitesmoke"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook" style="color:whitesmoke"></i></a></li>
+                    </ul>
+                 
+            </div>
+            <div class="content">
+
+                <ul class="matborder">
+                    <li>Mutyam</li>
+                    <li>React JS</li>
+                    <li>Javascript</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="main02 bar">
+
+
+            <div class="card">
+                <div class="card01"><i class="fa-solid fa-face-smile" style=" font-size:xx-large;"></i></div>
+                <h1>232</h1>
+                <p>Happy Clients</p>
+                 
+
+            </div>
+
+            <div class="card">
+                <div class="card02">
+                    <i class="fa-solid fa-headset" style=" font-size:xx-large;"></i>
+                </div>
+
+                <h1>3432</h1>
+                <p>Happy Clients</p>
+                 
+
+            </div>
+
+            <div class="card">
+                <div class="card03">
+                    <i class="fa-solid fa-face-smile" style="font-size:xx-large;"></i>
+                </div>
+
+                <h1>232</h1>
+                <p>Happy Clients</p>
+                 
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
