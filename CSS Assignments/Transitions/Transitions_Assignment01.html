@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Mutyam==>Assignment01</title>
+
+        <style>
+         
+
+            .cards{
+                
+                border: 2px solid black;
+                display:flex;
+                justify-content: space-around;
+                gap:20%;
+                padding:100px;
+                background-color: rgb(205, 203, 203);
+            }
+
+            .card{
+                border: 5px solid rgb(255, 253, 253);
+                border-radius: 15px;
+                /* flex-grow: 1; */
+                width:30%;
+                height:100px;
+                padding:20px;
+                text-align: center;
+                position:relative;
+                background-color: rgb(255, 221, 30);
+                color:black;
+                font-weight: bolder;
+            }
+
+            .card p{
+                margin:0;
+
+                
+            }
+            .card h2{
+                margin-top:30px;
+                margin-bottom:0;
+                font-size: 2em;
+            }
+
+            .Logo {
+               background-color: rgb(236, 65, 65);
+               border-radius: 50%;
+               width: 39.6px;
+               height: 39.6px;
+               padding: 15px;
+               position: absolute;
+               top: -43px;/* half of his height */
+               left: calc(50% - 35px);/*50% - half of his length*/
+               text-align: center;  
+               transition: all ease 1s;
+               border:5px solid white;
+            }
+
+            i{
+                font-size: 2em;
+                color:white;
+            }
+
+            .Logo:hover{
+                transform: rotate3d(0, 1, 0, 180deg);
+                
+            }
+            
+        </style>
+
+        <script src="https://kit.fontawesome.com/72b3e5b518.js" crossorigin="anonymous"></script>
+    
+    
+    </head>
+
+    <body>
+        
+        <div class="cards">
+
+            <div class="card">
+                <div class="Logo"><i class="fa-solid fa-face-smile"></i></div>
+                <h2>232</h2>
+                <p>Happy Clients</p>
+            </div>
+
+
+            <div class="card">
+                <div class="Logo"><i class="fa-solid fa-headset"></i></div>
+                <h2>3423</h2>
+                <p>Project</p>
+            </div>
+
+
+            <div class="card">
+                <div class="Logo"><i class="fa-solid fa-cloud"></i></div>
+                <h2>232</h2>
+                <p>Happy Clients</p>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </body>
+</html>
