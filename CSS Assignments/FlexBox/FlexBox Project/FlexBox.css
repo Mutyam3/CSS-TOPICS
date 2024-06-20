@@ -1,0 +1,569 @@
+* {
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-color
+{
+  background-color: rgb(21, 20, 20);
+  color:aliceblue
+}
+
+
+body
+{
+   margin : 35px 35px 10px 35px;
+   background-color: rgb(21, 20, 20);
+}
+
+
+nav{
+ display: flex;
+ justify-content: space-around;
+ vertical-align: middle;
+ /* border:2px solid black; */
+ align-items: center;
+ border-radius: 20px;
+ padding-bottom:20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoarea
+{
+ display :flex;
+}
+
+
+
+#menulist{
+ padding : 0px;
+ /* border: 2px solid black; */
+ display :flex;
+ justify-content: space-around;   
+}
+
+#menulist li
+{
+ list-style-type: none;
+ /* border:2px solid black; */
+ padding:9px;
+ width : 120px;
+ font-size: 20px;
+}
+
+
+
+#menulist li:hover 
+{
+    color :rgb(254,212,3);
+    transition: linear 0.8s;
+}
+
+.navButton
+{
+ padding: 12px 20px;
+ background-color: rgb(254,212,3);
+ border-radius: 20px;
+ margin-left:5px;
+ font-size: 1rem;
+ border:0px;
+}
+
+header
+{
+  border  : 2px solid black;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position : relative;
+  background-color: rgb(254,212,3);
+  border-radius: 20px;
+ 
+}
+
+header h1 
+{ 
+ font-size: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ /* border : 2px solid black; */
+
+}
+
+header section 
+{
+display : inline-block;
+padding: 80px;
+
+}
+
+.headimage 
+{ 
+ 
+  width: 420px;
+  height: 250px; 
+  transform : rotate(23deg);
+  border-radius: 15px;
+}
+
+.cards 
+{
+ /* border : 2px solid black; */
+ display : flex; 
+ gap :25px;
+ padding:70px 20px 100px 20px;
+ border-radius: 20px;
+}
+
+.cards div
+{
+   /* border : 2px solid black; */
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   font-size: large;
+   background-color:rgb(42,43,44);
+   color : rgb(253,253,253);
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 25px;
+}
+
+.cards div h1 
+{
+ margin :10px 0px 17px 0px;
+ font-size: 2.7rem;
+}
+
+.spancard,.pcard
+{
+ font-size: 1rem;
+ text-align: center;
+ margin : 15px 0px 0px 0px;
+}
+
+.rating
+{
+    border : 2px solid black;
+    display : flex;
+    justify-content: space-around;
+    padding : 20px;
+    gap : 40px;
+    background-color:rgb(42,43,44);
+    font-size: 1.1rem;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.joinus 
+ {
+ display: flex;
+ gap : 20px;
+ /* border: 2px solid black; */
+ padding-bottom: 30px;
+ }
+
+#imagecard 
+{
+ display: flex;
+ /* border: 2px solid black; */
+ width : 210px;
+
+}
+
+#joinusbtn
+{  
+ text-align: center;
+ padding-top: 20px;
+}
+
+#rateit 
+{
+ padding : 20px;
+
+}
+
+#rateit button 
+{
+ padding : 10px 50px 10px 50px ;
+ border-radius : 15px;
+ color:rgb(17, 18, 18);
+ background-color: rgb(254,212,3);
+ font-size: 1.1rem;
+ border:0px;
+}
+
+.message 
+{
+ width : 35%;
+ font-size: 1.3rem;
+
+}
+
+
+.profilecard 
+{
+ width : 72px;
+ height: 72px;
+ border-radius: 50%;
+ border:2px solid rgb(249, 243, 243);
+ overflow: hidden;
+ 
+}
+.register
+{
+ /* border:2px solid black; */
+ display: flex;
+ justify-content: space-evenly;
+ padding: 200px 40px 150px 40px;
+ color:aliceblue;
+ background-color:rgb(21, 20, 20); ;
+ font-family: Arial, Helvetica, sans-serif;
+ border-radius: 20px;
+}
+
+#manindiv
+{
+ /* border:2px solid black; */
+ display: flex;
+ align-items: center;
+ padding:30px;
+}
+
+#man
+{
+ border:2px solid rgb(255, 254, 251);
+ width:500px;
+ height:250px;
+ /* padding: 150px; */
+ position:relative;
+ border-radius: 20px;
+ background-color:rgb(254,212,3) ;
+ 
+}
+
+#man img 
+{
+ width : 300px;
+ height : 400px;
+ position:absolute;
+ bottom:0px;
+ left: 50%;
+ right:50%;
+ transform:translate(-50%);
+
+}
+
+
+.process 
+{
+ display:flex;
+ flex-direction: column;
+ gap :40px;
+ padding:40px; 
+ 
+}
+
+.process li 
+{
+ list-style-type: none;
+ /* border:2px solid black; */
+ display:flex;
+ flex-direction: row;
+ padding:30px;
+ border-radius: 15px;
+ background-color: rgb(42,43,44);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.process li h4,p 
+{
+ margin:0px;
+ text-align: left;
+ padding-left : 20px;
+ text-wrap: wrap;
+}
+
+.sp
+{
+ border-radius: 50%;
+ padding:10px;
+ background-color:rgb(254,212,3) ;
+ color:black;
+ font-size: 1.1rem;
+ font-weight: bold;
+}
+
+.seemore
+{
+ display: flex;
+ flex-direction: column;
+ /* border: 2px solid black; */
+ align-items: center;
+ padding:10px 10px 0px 10px;
+ gap:30px;
+ border-radius: 20px;
+ background-color: rgb(42,43,44);
+}
+
+.seemore div
+{
+ /* border: 2px solid black; */
+ text-align: center;
+ overflow:hidden ;
+ 
+}
+.seemore #seemorepara p 
+{
+ display: inline-block;
+ /* border: 2px solid black; */
+ font-size: 1.2rem;
+ text-wrap: wrap;
+ width:48%;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ padding:10px;
+ color:white;
+}
+
+.seemore div button 
+{
+ padding:10px 40px 10px 40px;
+ border-radius: 20px;
+ color:black;
+ background-color: rgb(254,212,3);
+ font-size: 1.1rem;
+ font-weight: bold;
+ border:0px;
+}
+
+.lapimage
+{
+ width:75%;
+ padding:40px 40px 0px 40px;
+ /* border:2px solid white; */
+ border-radius: 20px 20px 0px 0px;
+ border-bottom: 0;
+ background-color: black;
+ border:2px solid white;
+ border-bottom: 0px;
+ 
+ 
+}
+
+.lapimage div
+{ 
+ /* border: 2px solid black; */
+ border-radius: 10px 10px 0px 0px;
+ border-bottom: 0;
+ /* padding: 40px; */
+ overflow:hidden ;
+ outline:2px solid white;
+}
+
+.lastsection
+{ 
+ /* border  : 2px solid black;  */
+ padding : 400px 40px 40px 40px;
+ border-radius : 10px;
+}
+
+.mobilesection 
+{
+ border:2px solid black;
+ padding:30px;
+ display: flex;
+ gap :10px;
+ position:relative;
+ background-color: rgb(254,212,3);
+ border-radius: 20px;
+}
+
+.mobiletext
+{
+ /* border:2px solid black; */
+ display: flex;
+ flex-direction: column;
+ height:300px;
+ justify-content: space-evenly;
+ align-items:start;
+ margin-left :80px;
+ color:rgb(18, 18, 19);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobiletext div button
+{
+   padding:15px 40px 15px 40px;
+   font-weight: bolder;
+   border-radius: 20px;
+   background-color: rgb(24, 24, 24);
+   color:aliceblue;
+   font-size: 1rem;
+   border:0px;
+
+}
+
+.mobile  
+{
+  border:3px solid rgb(239, 232, 232);
+  width:28%;
+  height:500px;
+  position: absolute;
+  bottom: 0px;
+  left : 80%;
+  right: 50%;
+  transform: translate(-50%);
+  border-radius : 40px 40px 0px 0px;
+  border-bottom: 0;
+  padding:20px;  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color :azure;
+  
+}
+
+.mobile .innermobile 
+{
+ border:2px solid black;
+  width:100%;
+  height:480px;
+  border-radius : 30px 30px 0px 0px;
+  border-bottom: 0; 
+  overflow: hidden;
+  padding:10px;
+  background-color: rgb(44, 44, 44);
+}
+
+.innermobile #div1
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+ 
+}
+.notch 
+{
+width:100px;
+border : 2px solid black;
+border-radius: 10px;
+
+}
+
+.innermobile #div02 img 
+{
+ vertical-align: middle;
+ 
+}
+
+.innermobile #div02
+{
+text-align: center;
+font-size: 1.1rem;
+font-weight: bolder;
+
+}
+
+
+.mobilelist
+{
+ padding-left:0px;
+ /* background-color: rgb(255, 255, 255); */
+ color:rgb(23, 23, 23);
+ border-radius: 20px 20px 0px 0px;
+}
+
+.mobilelist li
+{
+ list-style-type: none;
+ display :flex;
+ justify-content: space-evenly;
+ border: 2px solid;
+ padding:13px;
+ border-radius: 20px;
+ background-color: whitesmoke;
+}
+
+.removep h3,p
+{
+ margin :0px;
+ padding:0px;
+}
+
+.mobilelist li i 
+{
+ font-size: 1.5rem;
+}
+
+
+footer 
+{
+ padding:40px 40px 0px 40px;
+ /* border:2px solid black; */
+ border-radius: 20px;
+ color:azure;
+
+}
+
+.footnav 
+{
+ /* border : 2px solid black; */
+ display:flex;
+ justify-content: space-between;
+
+}
+
+.footnav div
+{
+  display: flex;
+  /* border: 2px solid black; */
+  padding:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap:10px;
+  font-size: 0.8rem;
+}
+.footlast 
+{
+ /* border : 2px solid black; */
+ padding:10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.9rem;
+ border-top:2px solid white;
+}
+
+.footlast div 
+{
+ display:flex;
+ /* border: 2px solid black; */
+ padding:10px;
+ gap:40px;
+ 
+}
+
+.footnavlist
+{
+ display: flex;
+ list-style-type: none;
+ align-items: center;
+ /* border : 2px solid black; */
+ padding-left:0px;
+ width:40%;
+ justify-content: space-evenly;
+ font-size: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
