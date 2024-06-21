@@ -18,6 +18,11 @@ body
    background-color: rgb(21, 20, 20);
 }
 
+body::-webkit-scrollbar
+{
+  display: none;
+}
+
 
 nav{
  display: flex;
@@ -94,9 +99,10 @@ header h1
 
 header section 
 {
-display : inline-block;
+display : flex;
+flex-direction: row;
 padding: 80px;
-
+align-items: center;
 }
 
 .headimage 
@@ -145,7 +151,7 @@ padding: 80px;
 
 .rating
 {
-    border : 2px solid black;
+    /* border : 2px solid black; */
     display : flex;
     justify-content: space-around;
     padding : 20px;
@@ -284,7 +290,7 @@ padding: 80px;
  margin:0px;
  text-align: left;
  padding-left : 20px;
- text-wrap: wrap;
+ /* text-wrap: wrap; */
 }
 
 .sp
@@ -393,6 +399,7 @@ padding: 80px;
  margin-left :80px;
  color:rgb(18, 18, 19);
  font-family: Arial, Helvetica, sans-serif;
+ width:50%;
 }
 
 .mobiletext div button
@@ -560,10 +567,297 @@ footer
 
 }
 
+.mobilecard
+{
+     border: 2px solid white;
+     padding:10px;
+     position:relative;
+     background-color: rgb(254,212,3);
+     border-radius: 20px;
+     height:300px;
+     
+  
+}
+
+.mobilecardmobile
+{
+  border:3px solid rgb(239, 232, 232);
+  width:28%;
+  height:500px;
+  position: absolute;
+  bottom: -252px;
+  left : 50%;
+  right: 50%;
+  transform: translate(-50% , -50%);
+  border-radius : 40px 40px 0px 0px;
+  border-bottom: 0;
+  padding:20px;  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(14, 14, 14);
+  color :azure;
+}
+
+.lastmobile
+{
+   display: none;
+}
 
 
 
+@media(max-width:748px)
+  {
+
+        nav{
+             flex-direction: column;
+             align-items: center;
+          } 
+         header section 
+         {
+             flex-direction: column;
+         }
+
+         .cards 
+         {
+            flex-direction: column;
+         }
+
+         .Rating
+         {
+             flex-direction: column;
+         }
+
+         .message  
+         {
+              width: 60%;
+         }
 
 
+         .mobiletext div button
+         {
+              padding:20px;
+         }
+
+
+         .register 
+         {
+           flex-direction: column;
+           gap:100px;
+         }
+
+         .maindiv
+         {
+             padding:50px;
+         }
+
+         .mobilesection
+         {
+          
+            padding:20px;
+         }
+
+         .mobile
+         {
+           display : none;
+         }
+
+         .lastsection
+         {
+           padding-top : 70px;
+           
+         }
+
+          .mobilecardmobile
+          {
+             overflow-y: scroll;
+             width: 60%;
+
+          }
+
+          .mobilecardmobile::-webkit-scrollbar
+          {
+            display: none;
+          }
+
+         .lastmobile
+         {
+            padding-top: 200px;
+           
+         }
+
+         .footnav 
+         {
+            flex-direction: column;
+            align-items: center;
+         }
+
+         .footnavlist
+         {
+           gap:30px;
+         }
+         
+         .lastmobile
+          {
+              display: block;
+          }
+  }
+
+
+ 
+@media(max-width:450px){
+
+   body {
+        
+       
+        
+   }
+
+     nav 
+     {
+        flex-direction: column;
+        width:100%;
+     }
+    
+    #menulist 
+    {
+        flex-direction: column;
+        width : 100%;
+        align-items: center;
+    }
+
+     header section
+      {
+         padding:0px; 
+      }
+
+      header h1 
+      {
+        margin: 10px;
+        justify-content: space-evenly;
+      }
+
+      header 
+      {
+        height:700px;
+        width: 100%;
+      }
+       .headimage 
+      {
+         width:270px;
+         height:120px
+      }
+
+      .cards 
+      {
+        padding: 70px 0px 100px 0px;
+      }
+
+
+      .Rating
+      {
+        width:100%;
+      }
+
+      .register 
+      {
+        padding: 200px 0px 150px 0px;
+      }
+   
+      .details h1 
+      {
+         text-align: center;
+      }
+
+      .process li 
+      {
+         width:100%;
+      }
+
+      #manindiv
+      {
+        
+          width: 100%;
+          padding: 10px;
+      }
+
+      .seemore
+      {
+        width:100%;
+      }
+
+       .seemore  #seemorepara p
+      {
+        
+        width: 100%;
+        
+      }
+
+      .lapimage
+      {
+         padding:10px;
+      }
+
+      .lastsection
+      {
+        padding: 150px 0px 200px 0px;
+      }
+
+      .mobilesection
+      {
+         width:100%;
+      }
+
+      .mobiletext
+      {
+        flex-direction: column;
+        width:100%;
+        margin-left: 0px;
+        align-items: center;
+      }
+
+      .mobilecardmobile
+      {
+        width:80%;
+
+      }
+
+      .lastmobile
+      {
+        padding-bottom: 100px;;
+      }
+
+      footer
+      {
+        align-items: center;
+      }
+
+      .footnav  h1
+      {
+        text-align: center; 
+      }
+
+      .footnavlist
+      {
+         flex-direction: column;
+      }
+
+      .rating{
+        font-size: 0.7rem;
+      }
+
+      #rateit
+      {
+        padding:10px;
+      }
+
+      .joinus
+      {
+        gap:10px;
+      }
+
+     
+
+  }
+  
+  
 
 
